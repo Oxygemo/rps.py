@@ -1,9 +1,9 @@
 import random
 import os
 import sys
-#What text editor you using? I use VSCode
+#What text editor you using? I use VSCode, but IDLE at school since school blocks vscode or atom install but not python :)
 
-print("Rock, paper, scissors! \n Choose your gesture: \n 1. Rock \n 2. Paper \n 3. Scissors.")
+print("Rock, paper, scissors! \n Choose your gesture: \n 1. Rock \n 2. Paper \n 3. Scissors.\n 4. Challenge your friend")
 human = input("Input:")
 
 if human == "1":
@@ -60,5 +60,7 @@ if human == "3":
         input("Play again!")
         os.system("start rps.py")
         sys.exit()
+if human == 4:
+    print ("Ey, this is experimental, and not finished. Atleast thanks for getting from the experimental branch.")
 
     
